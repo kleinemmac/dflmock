@@ -1,0 +1,51 @@
+#language-picker {
+    text-transform: uppercase;
+}
+
+#language-picker a {
+    color: #888;
+}
+
+#language-picker a:hover {
+    text-decoration: none;
+}
+
+#search-bar {
+
+}
+
+.header-button {
+    padding: 10px 0;
+}
+
+.header-button a {
+    color: #fff;
+    font-size: 28px;
+}
+
+.header-button a:hover {
+    text-decoration: none;
+}
+
+#visit-us {
+    background: #5e6367;  
+}
+
+#adopt {
+    background: #a4a74f;    
+}
+
+#donate {
+    background-color: #f37432;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+#main-nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 0 0 10px;
+}

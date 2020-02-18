@@ -1,3 +1,7 @@
+a:hover {
+    text-decoration:none;
+}
+
 #language-picker {
     text-transform: uppercase;
 }
@@ -47,5 +51,52 @@
 #main-nav li {
     display: inline-block;
     text-transform: uppercase;
+    color: #888;
     margin: 0 0 0 10px;
 }
+
+.img-full {
+    width: 100%;
+}
+
+#scroll-down {
+    cursor: pointer;
+    font-style: italic;
+    color: #5e6367; 
+}
+
+#news-box {
+    background-color: #ece7df;
+}
+
+#newsbox-header {
+    color: #a7a951;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+h3 {
+    color:#f37432;
+    font-size: 18px;
+}
+
+#thumbnail {
+    border: 1px none;
+    border-radius: 50%;
+    
+}
+
+.events-info {
+    font-style: italic; 
+}
+
+#view-more {
+    background-color: #5e68b0;
+    color: #ffff;
+    text-align: center;
+    padding: 22px 20px;
+    text-decoration-color: none;
+}
+

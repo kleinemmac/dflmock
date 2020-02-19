@@ -14,10 +14,6 @@ a:hover {
     text-decoration: none;
 }
 
-#search-bar {
-
-}
-
 .header-button {
     padding: 10px 0;
 }
@@ -67,14 +63,22 @@ a:hover {
 
 #news-box {
     background-color: #ece7df;
+    padding-bottom: 65px;
 }
 
-#newsbox-header {
+#news-box a {
+    color: black;
+    font-weight: 700;
+}
+
+.newsbox-header {
     color: #a7a951;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
     padding: 30px 0;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -82,21 +86,93 @@ h3 {
     font-size: 18px;
 }
 
+.news-item {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
 #thumbnail {
     border: 1px none;
-    border-radius: 50%;
-    
+    border-radius: 50%;    
 }
 
 .events-info {
     font-style: italic; 
 }
 
-#view-more {
+.events-item {
+    padding: 10px 0;
+}
+
+.view-more {
     background-color: #5e68b0;
-    color: #ffff;
+    color: #fff;
     text-align: center;
     padding: 22px 20px;
-    text-decoration-color: none;
+    width: 50%;
 }
+
+.view-more a {
+    color: #fff !important;
+}
+
+#image-bar {
+    height: 194px;
+    overflow: hidden;
+}
+
+.dashed-hr {
+    border: 1px dashed black;
+}
+
+h4 {
+    text-transform: uppercase;
+    text-emphasis: weight;
+    font-size: 28px;
+    padding: 8px 0;
+}
+
+#suffering {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+#form-box {
+    background-color: #a4a74f;
+    padding: 0 150px;
+}
+
+#form-box p {
+    color: #fff;
+    text-emphasis: weight;
+    font-size: 26px;
+}
+
+#submit-button {
+    background-color: #707272;
+    color:#fff;
+    border: none;
+    padding: 10px 12px;
+}
+
+footer {
+    background-color: #5e68b0;
+}
+
+h5 {
+    text-transform: uppercase;
+    text-emphasis: weight;
+    color: #fff;
+}
+
+#footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#footer li {
+    color: #fff;
+}
+
+
 
